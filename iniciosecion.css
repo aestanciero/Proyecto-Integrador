@@ -7,9 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-body{
-    
-}
+
 .registro{
     width: 400px;
     height: 340px;
@@ -100,4 +98,36 @@ p a:hover {
     background: #f0899d;
     font-size: 25px;
 
+}
+@media screen  and (min-width:10px) and (max-width: 1180px) {
+   
+    .form-registro{
+        margin: 0 ;
+       
+    }
+
+    .registro{
+        display: block;
+        width: 50%;
+        border: black;
+        border-style: solid;
+        margin: 30px 30px 30px 30px;
+      
+ 
+    
+    
+    }
+    .nuevo {
+        display: block;
+       
+        width: 50%;
+        height: 65vh;
+      
+        border: black;
+        border-style: solid; 
+        margin: 5px 5px 150px 10px;  
+    }
+    
+
+    
 }

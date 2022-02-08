@@ -52,3 +52,11 @@ img{
     transform: translate(-160%, 10%)
 
 }
+@media screen and (min-width:10px) and (max-width:1180px){
+    p{
+        display: inline;
+    }
+
+
+
+}
