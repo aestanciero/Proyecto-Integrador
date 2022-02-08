@@ -291,16 +291,22 @@ footer{
         width: 50vw;
         height: 30vh;
         position: relative;
-        transform: translate(-50%, -280%);
+        transform: translate(-50%, -300%);
         line-height: 45px;  
        
     }  
+    .philo{
+        filter: drop-shadow(5px 5px 10px black);
+        
+    }
     
 .titulo{
         display: inline-block;
-        line-height: 20px;
+        line-height: 30px;
         width:100%;
         font-size: 100%;
+        margin-top:-20px;
+        margin-bottom: 20px;
   
     }
     .icono{
@@ -311,6 +317,7 @@ footer{
     .boton{
         width: 40%;
         height: 40px;
+        color: #black;
     }
     footer{
         width: 100%;
@@ -322,16 +329,13 @@ footer{
         display: block;
 
     }
-    section{
-        
-     
-    }
+    
 }
 
 
 
     
-@media screen and (min-width:100px) and (max-width:820px){
+@media screen and (min-width:10px) and (max-width:820px){
     ul{
        display: none;
        line-height: 15%;
