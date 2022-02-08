@@ -105,12 +105,13 @@ p a:hover {
         margin: 0 ;
        
     }
+    h2 {
+        background: #f0899d;
+    }
 
     .registro{
         display: block;
         width: 50%;
-        border: black;
-        border-style: solid;
         margin: 30px 30px 30px 30px;
       
  
@@ -122,9 +123,6 @@ p a:hover {
        
         width: 50%;
         height: 65vh;
-      
-        border: black;
-        border-style: solid; 
         margin: 5px 5px 150px 10px;  
     }
     
